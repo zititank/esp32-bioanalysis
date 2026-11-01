@@ -1,0 +1,24 @@
+# Local Python and editor files
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.DS_Store
+.idea/
+.vscode/
+
+# Research data: never commit raw or identifiable recordings
+data/raw/
+data/private/
+*.csv
+*.edf
+*.jsonl
+*.wav
+*.png
+*.jpg
+*.jpeg
+
+# Generated analysis output
+data/processed/
+reports/generated/
+out/
